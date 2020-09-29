@@ -422,7 +422,7 @@ translate(width/2,(height/600))
 
 strokeWeight(13)
 stroke('black')
-arc(0, (height/1.7)-8, 200, 200, 135, 405, CHORD);
+arc(0, (height/1.7)-8, width/10, width/10, 135, 405, CHORD);
 
 if (realframeCount<=100){
   fill(lerpColor(color('#ff000f'),color('#d60047'),realframeCount/100));
@@ -432,7 +432,7 @@ if (realframeCount>100){
 }
 
 strokeWeight(10)
-arc(0, (height/1.7)-8, 197, 192, 155, 385, CHORD);
+arc(0, (height/1.7)-8, width/10, width/10, 155, 385, CHORD);
 
 if (realframeCount<=100){
   fill(lerpColor(color('#ff3d00'),color('#ff000f'),realframeCount/100));
@@ -442,7 +442,7 @@ if (realframeCount>100){
 }
 
 strokeWeight(7)
-arc(0, (height/1.7)-8, 195, 195, 170, 370, CHORD);
+arc(0, (height/1.7)-8, width/10, width/10, 170, 370, CHORD);
 
 if (realframeCount<=100){
   fill(lerpColor(color('#ff7300'),color('#ff3d00'),realframeCount/100));
@@ -452,7 +452,7 @@ if (realframeCount>100){
 }
 
 strokeWeight(6)
-arc(0, (height/1.7)-3-8, 193, 193, 182, 358, CHORD);
+arc(0, (height/1.7)-3-8, width/10, width/10, 182, 358, CHORD);
 
 pop()
 
