@@ -420,7 +420,7 @@ push()
 translate(width/2,(height/600))
 
 
-strokeWeight(13)
+strokeWeight(13*width/1800)
 stroke('black')
 arc(0, (height/1.7)-8, width/10, width/10, 135, 405, CHORD);
 
@@ -431,7 +431,7 @@ if (realframeCount>100){
   fill(lerpColor(color('#d60047'),color('#ff000f'),(realframeCount-100)/100));
 }
 
-strokeWeight(10)
+strokeWeight(10*width/1800)
 arc(0, (height/1.7)-8, width/10, width/10, 155, 385, CHORD);
 
 if (realframeCount<=100){
@@ -441,7 +441,7 @@ if (realframeCount>100){
   fill(lerpColor(color('#ff000f'),color('#ff3d00'),(realframeCount-100)/100));
 }
 
-strokeWeight(7)
+strokeWeight(7*width/1800)
 arc(0, (height/1.7)-8, width/10, width/10, 170, 370, CHORD);
 
 if (realframeCount<=100){
@@ -451,7 +451,7 @@ if (realframeCount>100){
   fill(lerpColor(color('#ff3d00'),color('#ff7300'),(realframeCount-100)/100));
 }
 
-strokeWeight(6)
+strokeWeight(6*width/1800)
 arc(0, (height/1.7)-3-8, width/10, width/10, 182, 358, CHORD);
 
 pop()
